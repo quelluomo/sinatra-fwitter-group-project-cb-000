@@ -3,7 +3,7 @@
 <p><b>A social network for antisocial people</b></p>
 
   <% if logged_in? %>
-    <p>Welcome, <%=current_user.username %></p>
+    <p><b>Welcome, <%=current_user.username %></b></p>
     <a href="/tweets/new"> Create Tweet </a>
     <a href="/logout"> Log Out </a>
 
