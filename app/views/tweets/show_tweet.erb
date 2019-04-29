@@ -1,5 +1,5 @@
 <label>Your Tweet</label>
-<h1><%=@tweet.content %></h1>
+<h3><%=@tweet.content %></h3>
 
 <form method="post" action="/tweets/<%=@tweet.id%>/delete">
   <input id="hidden" type="hidden" name="_method" value="DELETE">
